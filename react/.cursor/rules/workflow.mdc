@@ -1,0 +1,19 @@
+---
+description: Workflow and git commit preferences for this project
+alwaysApply: true
+---
+
+# Workflow Preferences
+
+## Git / Commits
+- NEVER create a git commit automatically.
+- Before committing, propose a single one-line commit message and WAIT for explicit approval.
+- Only run `git commit` after the user approves the proposed message.
+
+## Working Style
+- Work step by step. Complete one focused step, then continue.
+- Keep changes small and reviewable at each step.
+
+## Stack
+- React + TypeScript + TailwindCSS (Vite).
+- Use functional components and keep layout pieces (Header, Footer, Sidebar/Menu) as reusable components.
